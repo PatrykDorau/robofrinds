@@ -25,11 +25,3 @@ karta.addEventListener("mousemove", (event) => {
 export default Card;
 
 
-/*
-const karta = document.getElementById("karta");
-karta.addEventListener("mousemove", (event) => {
-	let xAxis = (window.innerWidth / 2 - event.pageX) / 25;
-	let yAxis = (window.innerHeight / 2 - event.pageY) / 25;
-	karta.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
-});
-*/
